@@ -116,6 +116,7 @@ type ModifiersKeys =
 
 export interface From {
   key_code?: KeyCode;
+  apple_vendor_top_case_key_code?: "keyboard_fn";
   simultaneous?: SimultaneousFrom[];
   simultaneous_options?: SimultaneousOptions;
   modifiers?: Modifiers;
